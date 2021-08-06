@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>
+Metals
+</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<center>
+<p style="font-size:25px"><a href="metals/cyprium.html" style="text-decoration:none">Cyprium</a>
+<p style="font-size:25px"><a href="metals/gold.html" style="text-decoration:none">Gold</a>
+<p style="font-size:25px"><a href="metals/iron.html" style="text-decoration:none">Iron</a>
+<p style="font-size:25px"><a href="metals/kobalt.html" style="text-decoration:none">Kobalt</a>
+<p style="font-size:25px"><a href="metals/native lead.html" style="text-decoration:none">Lead</a>
+<p style="font-size:25px"><a href="metals/quicksilver.html" style="text-decoration:none">Quicksilver</a>
+<p style="font-size:25px"><a href="metals/silver.html" style="text-decoration:none">Silver</a>
+<p style="font-size:25px"><a href="metals/tin.html" style="text-decoration:none">Tin</a>
+<p style="font-size:25px"><a href="metals/white cyprium.html" style="text-decoration:none">White Cyprium</a>
+<p style="font-size:25px"><a href="metals/zinc.html" style="text-decoration:none">Zinc</a>
+</body>
+</html>
