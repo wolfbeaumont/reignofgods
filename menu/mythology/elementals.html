@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+The Elementals
+</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+<body style="border:3px; border-style:solid; border-color:#000000; padding: 1em;">
+<div class="w3-content w3-display-container">
+<center>  
+  <img class="mySlides" src="water elementals.jpg" style="width:40%">
+  <img class="mySlides" src="fire elementals.jpg" style="width:50%">
+  <img class="mySlides" src="air elementals.jpg" style="width:40%">
+  <img class="mySlides" src="stone elementals.jpg" style="width:60%">
+  <img class="mySlides" src="wood elementals.jpg" style="width:40%">
+  <img class="mySlides" src="metal elementals.jpg" style="width:60%">
+  <img class="mySlides" src="crystal elementals.jpg" style="width:40%">
+  <img class="mySlides" src="death elementals.jpg" style="width:40%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</center>
+</div>
+<hr>
+<center>
+<b><u>The Elementals</b></u>
+</center>
+<hr>
+&nbsp There were seven original elemental species, each an automaton and servant of their elemental sphere's norn: the Baetylii (crystal elementals, the Råo (tree-elementals), the Jötunn (water-elementals), the Vajra (air-elementals), the Dharà (stone-elementals), the Ptah (metal-elementals) and the Kojin (fire-elementals).
+<p>
+&nbsp Whilst the Baetylii once served the crystal norn, they now serve Atem and after Dvallin's death the Dharà lie mostly dormant and forgotten waiting for a new norn or a reason to awaken. In creating an underworld, Atem's actions had the unintended consequence of creating a new death-elemental species known as the Rot.
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>
+The Norns
+</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+<body style="border:3px; border-style:solid; border-color:#000000; padding: 1em;">
+<div class="w3-content w3-display-container">
+<center>  
+  <img class="mySlides" src="water norn.jpg" style="width:40%">
+  <img class="mySlides" src="fire norn.jpg" style="width:40%">
+  <img class="mySlides" src="air norn.jpg" style="width:40%">
+  <img class="mySlides" src="stone norn.jpg" style="width:40%">
+  <img class="mySlides" src="wood norn.jpg" style="width:40%">
+  <img class="mySlides" src="metal norn.jpg" style="width:40%">
+  <img class="mySlides" src="crystal norn.jpg" style="width:40%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</center>
+</div>
+<hr>
+<center>
+<b><u>The Norns</b></u>
+</center>
+<hr>
+&nbsp The norns are living energy constructs given form by and bound to their elemental spheres. They exist to destroy any of the Nu that might manage to reach their elemental sphere’s reservoir. These titanic battles can give victory to either side, but the Nu keep coming and it takes a considerable amount of energy and time for the elemental spheres to create a new norn to defend their reservoirs. Without a norn the elemental sphere is defenceless and its reservoirs are slowly drained by any of the Nu that reach it.
+<p>
+&nbsp When the crystal norn merged with one of the nu, giving life to the entity known as Atem, all but one norn became corrupted - determined to destroy Atem the only way they could, by destroying the elemental spheres they were created to protect; like an immune system destroying the body in order to fight the disease.
+<p>
+&nbsp After the shattering of the crystal sphere and its merger with the stone sphere, the norns focused on depleting the reservoirs of their own spheres. Wood, Water and finally Air all collapsed into merged spheres of Crystal and Stone forming the world of Wyrd. Each norn crossed over with the shattered remains of their spheres to wage war upon the only norn that stood against them, the norn of the stone sphere, protecting Atem and thereby Wyrd, this norn became known as Dvallin.
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>
