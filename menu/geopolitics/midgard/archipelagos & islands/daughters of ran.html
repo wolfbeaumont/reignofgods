@@ -12,6 +12,22 @@ img.ww {
 }
 </style>
 <body style="border:3px; border-style:solid; border-color:#000000; padding: 1em;">
+<div class="w3-content w3-display-container">
+<center>  
+  <img class="mySlides" src="bloda.jpg" style="width:40%">
+  <img class="mySlides" src="drofn.jpg" style="width:40%">
+  <img class="mySlides" src="hevring.jpg" style="width:40%">
+  <img class="mySlides" src="unnr.jpg" style="width:40%">
+  <img class="mySlides" src="hronn.jpg" style="width:40%">
+  <img class="mySlides" src="dufa.jpg" style="width:40%">
+  <img class="mySlides" src="himi.jpg" style="width:40%">
+  <img class="mySlides" src="kolga.jpg" style="width:40%">
+  <img class="mySlides" src="bylgja.jpg" style="width:40%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</center>
+</div>
+<hr>
 <center>
 <img class="ww" img src="daughtersofran.png">
 <p>
@@ -72,4 +88,23 @@ This island is the rookery of the Taka.
 <p>
 One of the Daughters of Ran, this island is largely home to a bustling trade settlement. Close enough to hold’s capital, Axum, to sail there and back in a day - it is the ideal trading port for the hold given the dangers of sailing too deep into the Maw, with local sailors moving goods to the mainland from there. With a variety of reefs in the region, there is a thriving fishing industry thanks to the Graen Bay kelp nurseries, with shoals of mature fish having left its safety. On its southern coastline, a variety of birds make their home by the many thousands, hunting in the rich waters nearby. 
 </body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 </html>
