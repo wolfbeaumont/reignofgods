@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+Sedimentary Rock
+</title>
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+<center>
+<p style="font-size:25px"><a href="sed rock/black coal.html" style="text-decoration:none">Black Coal</a>
+<p style="font-size:25px"><a href="sed rock/brown coal.html" style="text-decoration:none">Brown Coal</a>
+<p style="font-size:25px"><a href="sed rock/chalk.html" style="text-decoration:none">Chalk</a>
+<p style="font-size:25px"><a href="sed rock/clay.html" style="text-decoration:none">Clay</a>
+<p style="font-size:25px"><a href="sed rock/flint.html" style="text-decoration:none">Flint</a>
+<p style="font-size:25px"><a href="sed rock/laterite.html" style="text-decoration:none">Laterite</a>
+<p style="font-size:25px"><a href="sed rock/limestone.html" style="text-decoration:none">Limestone</a>
+<p style="font-size:25px"><a href="sed rock/sandstone.html" style="text-decoration:none">Sandstone</a>
+<p style="font-size:25px"><a href="sed rock/sea coal.html" style="text-decoration:none">Sea Coal</a>
+</body>
+</html>
