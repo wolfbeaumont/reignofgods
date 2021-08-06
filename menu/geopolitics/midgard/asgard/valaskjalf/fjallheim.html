@@ -1,0 +1,57 @@
+<html>
+<//https://funny.pho.to/water_color/#>
+<head>
+<title>
+The Hold of Fjallheim
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../../../../styles.css">
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+<body style="border:3px; border-style:solid; border-color:#FFFFFF; padding: 1em;">
+<div class="w3-content w3-display-container">
+<center>  
+<img class="mySlides" src="fjallheim1.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim2.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim3.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim4.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim5.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim6.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim7.jpg" style="width:60%">
+  <img class="mySlides" src="fjallheim8.jpg" style="width:60%">
+  </center>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<hr>
+&nbsp Home to the capital of the kingdom, Fjallheim is a rugged landscape of low mountains and vales steeped in the beauty of a vast moorland. Little changes on the hills of Fjallheim save the shifting of the seasons; colloquially it is also known as the 'Fields of Amethyst', so named for the purple heather that covers large swathes of the regions moors, amidst the rich pastures of grass and gentle brooks.
+<p>
+&nbsp Despite its wild beauty little in the way of crops can be grown in the hold, the soil of which is too shallow to even root trees. Instead, Fjallheim has been given over to pasturing herds of cows, sheep and goats which roam freely, under the watchful eyes of their shepherds. It is not uncommon to spot a herd of wild mares grazing atop distant hills. Though they are renowned for their feral nature and their difficulty in being broken, fewer still have broken a Fjallheim stallion. Many of the hills here feature prominent tors that are revered as sacred places, fit only for ancestral worship. Folk navigate this stark landscape with the use of cairns, piles of stones that mark the larger trails for wagons.
+<p>
+&nbsp Asbru, the capital, is found towards the centre of the hold, built on the southern slopes of Valhalla, a small mountain, though the largest in the region. A natural aquifer, it is the source of many rivers. Several hot springs call the mountain home, which are considered to have healing properties. As such, many traverse the nine realms, in the hope that they can be healed, and Asbru has become a bustling city. Sometimes referred to as the City of Tears, it is so named for the rivers of the mountain that give it the appearance of crying.
+<p>
+&nbsp The royal family, King Dagfinn & Lady Thyra, hold court as Asbru whilst the Jarl of Fjallheim resides at Frostfjord. A small but important fishing and trading port, Frostfjord serves ships sailing around the horn. Frostfjord is so named because the fjord freezes over completely in the winter years, trapping any boats harboured there. Thankfully, the port sits on the fjord's mouth, where the ice is much thinner, allowing ships to easily sail in and out.
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>
