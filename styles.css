@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 10px 300px 10px 300px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: anger styles;
+  font-size: 22px;
+  font-weight:normal;
+  line-height: 1.5;
+  font-style:normal;
+}
