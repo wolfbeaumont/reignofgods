@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+Mythology
+</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<center>
+<p style="font-size:25px"><a href="mythology/atem.html" style="text-decoration:none">Atem</a>
+<p style="font-size:25px"><a href="mythology/dvallin.html" style="text-decoration:none">Dvallin</a>
+<p style="font-size:25px"><a href="mythology/qi.html" style="text-decoration:none">Qi</a>
+<p style="font-size:25px"><a href="mythology/abyss.html" style="text-decoration:none">The Abyss</a>
+<p style="font-size:25px"><a href="mythology/aeon.html" style="text-decoration:none">The Aeon</a>
+<p style="font-size:25px"><a href="mythology/atet.html" style="text-decoration:none">The Atet</a>
+<p style="font-size:25px"><a href="mythology/awakening.html" style="text-decoration:none">The Awakening</a>
+<p style="font-size:25px"><a href="mythology/elementals.html" style="text-decoration:none">The Elementals</a>
+<p style="font-size:25px"><a href="mythology/ele spheres.html" style="text-decoration:none">The Elemental Spheres</a>
+<p style="font-size:25px"><a href="mythology/norns.html" style="text-decoration:none">The Norns</a>
+<p style="font-size:25px"><a href="mythology/nu.html" style="text-decoration:none">The Nu</a>
+<p style="font-size:25px"><a href="mythology/shrivatsa.html" style="text-decoration:none">The Shrivatsa</a>
+<p style="font-size:25px"><a href="mythology/yggdrasil.html" style="text-decoration:none">The Yggdrasil</a>
+<p style="font-size:25px"><a href="mythology/wyrd.html" style="text-decoration:none">Wyrd</a>
+</body>
+</html>
