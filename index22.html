@@ -774,11 +774,13 @@ The persistent presence of Derrick&#39;s car raises questions. Was he surveillin
 
 &lt;center&gt;&lt;img src=&quot;https://joanbreckwoldt.com/wp-content/uploads/2017/09/36FA993A-1E0B-47E6-81DB-6E261737545E.jpeg&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/center&gt;
   &lt;hr&gt;
-In the midst of the art gallery&#39;s ambiance, a poignant tableau captures the eye—the torn remnants of a once-vibrant painting, its fractured canvas bearing witness to a violent act. The &lt;&lt;if $hasArtistAcrylicPaint is 1&gt;&gt;&lt;span&gt;[[gash|Text Messages]]&lt;/span&gt;&lt;&lt;/if&gt;&gt; across the artwork is more than a mere tear; it&#39;s a visceral wound etched into the very fabric of creativity. &lt;&lt;if $hasArtistAcrylicPaint is 1&gt;&gt;Knowing now that it was Eliza&#39;s hand which tore through the canvas makes you wonder what it was that caused her to react with such vitriol.&lt;&lt;/if&gt;&gt;
+In the midst of the art gallery&#39;s ambiance, a poignant tableau captures the eye—the torn remnants of a once-vibrant painting, its fractured canvas bearing witness to a violent act. The gash across the artwork is more than a mere tear; it&#39;s a visceral wound etched into the very fabric of creativity. &lt;&lt;if $hasArtistAcrylicPaint is 1&gt;&gt;Knowing now that it was Eliza&#39;s hand which tore through the canvas makes you wonder what it was that caused her to react with such vitriol.&lt;&lt;/if&gt;&gt;
 
-The canvas, before the brutality it suffered, bore witness to an avant-garde narrative that oscillated between the ephemeral and the metaphysical. It teased the observer&#39;s imagination with abstract amalgamations, intertwining celestial elements and elusive geometric shapes that danced in an intricate ballet of visual complexity.
+&lt;&lt;if $hasGArtistAcrylicPaint is 1&gt;&gt;You envision Eliza's &lt;span&gt;[[hand|Text Messages]]&lt;/span&gt; swiping through the canvas in an act of anger as she argued with Maxwell.
 
-A pretentious concoction of artistic intellect, the painting beckoned viewers to embark on a cerebral journey, navigating through the intangible concepts and obscure symbolism that manifested within the layers of its brushstrokes. Every stroke was a deliberate brush with the esoteric, challenging the audience to discern meaning within the ambiguity of its intricate details.
+&lt;&lt;else&gt;&gt;The canvas, before the brutality it suffered, bore witness to an avant-garde narrative that oscillated between the ephemeral and the metaphysical. It teased the observer&#39;s imagination with abstract amalgamations, intertwining celestial elements and elusive geometric shapes that danced in an intricate ballet of visual complexity.
+
+A pretentious concoction of artistic intellect, the painting beckoned viewers to embark on a cerebral journey, navigating through the intangible concepts and obscure symbolism that manifested within the layers of its brushstrokes. Every stroke was a deliberate brush with the esoteric, challenging the audience to discern meaning within the ambiguity of its intricate details.&lt;&lt;/if&gt;&gt;
 &lt;hr&gt;
 &lt;center&gt;&lt;div class=&quot;choice&quot;&gt;[[Return|Investigate the crime scene]]&lt;/div&gt;&lt;/center&gt;</tw-passagedata><tw-passagedata pid="19" name="Defensive Wounds" tags="done" position="1300,1800" size="100,100">&lt;&lt;set $item26 = {
     name: &quot;DefensiveWounds&quot;
@@ -793,10 +795,6 @@ The external examination of the deceased has revealed a notable presence of defe
 The pattern and distribution of these defensive wounds denote a purposeful engagement in self-preservation, extending beyond reflexive responses. The observed trajectory of the injuries is consistent with a struggle, reflecting a heightened state of distress. Such defensive actions are indicative of a confrontation marked by immediacy and intensity.
 
 Further examination of the torso reveals a series of penetrating wounds, notably a fatal stab wound to the heart and additional stabs across the torso. The nature of these injuries, characterized by their forceful and determined execution, implies an assailant driven by a potent surge of emotion. The pattern aligns with crimes of passion, where impulsive and emotionally charged actions supersede calculated intent.
-
-The collective findings underscore a scenario in which the victim actively sought to protect herself from harm, facing an assailant whose actions were characterized by a profound emotional intensity. This nuanced forensic interpretation serves to provide context to the investigation, urging a comprehensive exploration of the victim&#39;s interpersonal relationships and potential motives rooted in heightened emotional states.
-
-This analysis is offered within the parameters of forensic examination, and the investigation remains an ongoing endeavor under the purview of the Seattle Police Department.
 &lt;hr&gt;
 &lt;center&gt;&lt;div class=&quot;choice&quot;&gt;[[Return|Autopsy Report]]&lt;/div&gt;&lt;/center&gt;</tw-passagedata><tw-passagedata pid="20" name="Divorce Papers" tags="done" position="300,2100" size="100,100">&lt;&lt;set $item28 = {
     name: &quot;Divorce Papers&quot;,
